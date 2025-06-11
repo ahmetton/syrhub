@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Syrian Economic Analysis Hub</title>
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Syrian Economic Analysis Hub Logo">
+                </div>
+                <div class="absumenu">
+                  <button class="menu-toggle" id="menuToggle">
+                    <i class="fa-solid fa-sliders"></i>
+                  </button>              
+                  <ul class="main-menu">
+                      <li class="dropdown">
+                          <a href="#">
+                              <i class="fas fa-home"></i> الصفحة الرئيسية
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-info-circle"></i> لمحة عن المركز
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-chart-bar"></i> أحدث الإحصائيات
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-newspaper"></i> الأخبار
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-external-link-alt"></i> روابط سريعة
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#">
+                              <i class="fas fa-building"></i> عن المركز
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-eye"></i> الرؤية والرسالة
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-bullseye"></i> الأهداف الاستراتيجية
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-sitemap"></i> الهيكل التنظيمي
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-users"></i> فريق العمل
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-handshake"></i> الشراكات
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown mega-menu">
+                          <a href="#">
+                              <i class="fas fa-chart-line"></i> مؤشرات اقتصادية واجتماعية
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <div class="sub-menu mega-menu-content">
+                              <div class="mega-menu-column">
+                                  <h4>
+                                      <i class="fas fa-users"></i> السكان والديموغرافيا
+                                  </h4>
+                                  <ul>
+                                      <li>
+                                          <a href="#">التعداد السكاني</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">الهيكل العمري</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">التوزع الجغرافي</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">معدلات النمو</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="mega-menu-column">
+                                  <h4>
+                                      <i class="fas fa-industry"></i> القطاع الصناعي
+                                  </h4>
+                                  <ul>
+                                      <li>
+                                          <a href="#">الإنتاج الصناعي</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">الصادرات</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">الواردات</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">الاستثمارات</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="mega-menu-column">
+                                  <h4>
+                                      <i class="fas fa-seedling"></i> القطاع الزراعي
+                                  </h4>
+                                  <ul>
+                                      <li>
+                                          <a href="#">المحاصيل الاستراتيجية</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">مساحات الأراضي</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">الإنتاج الحيواني</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">أسعار المنتجات</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="mega-menu-column">
+                                  <h4>
+                                      <i class="fas fa-money-bill-wave"></i> القطاع المالي
+                                  </h4>
+                                  <ul>
+                                      <li>
+                                          <a href="#">سعر الصرف</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">التضخم</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">السيولة النقدية</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">السياسة النقدية</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#">
+                              <i class="fas fa-concierge-bell"></i> خدماتنا
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-chart-pie"></i> التحليل الاقتصادي
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-search-dollar"></i> دراسات الجدوى
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-chess"></i> الاستشارات الاستراتيجية
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-database"></i> قواعد البيانات
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#">
+                              <i class="fas fa-book-open"></i> الدراسات والتقارير
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-flask"></i> الأبحاث العلمية
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-chart-area"></i> الدراسات التحليلية
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-file-alt"></i> التقارير الخاصة
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#">
+                              <i class="fas fa-calendar-alt"></i> الفعاليات والندوات
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-microphone"></i> ندوات
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-tools"></i> ورش عمل
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-graduation-cap"></i> دورات
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-chalkboard-teacher"></i> محاضرات
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#">
+                              <i class="fas fa-handshake"></i> التعاون والشراكات
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-file-signature"></i> اتفاقيات
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-project-diagram"></i> مشاريع مشتركة
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-briefcase"></i> فرص تعاون
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#">
+                              <i class="fas fa-envelope"></i> اتصل بنا
+                              <i class="dropdown-icon fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-edit"></i> نموذج الاتصال
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-map-marker-alt"></i> العنوان
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class="fas fa-map"></i> خريطة الوصول
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+        </header>
+
+        <script src="assets/js/menu.js"></script>
+
+    </body>
+</html>
